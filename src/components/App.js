@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Header from "./Bootstrap/Header";
+import ChatBot from "./ChatBot/ChatBot";
 
 class App extends Component {
   render() {
@@ -8,6 +9,7 @@ class App extends Component {
         <Header containerClass="justify-content-center" dark={true}>
           ChatBot without using AI{" "}
         </Header>
+        <ChatBot />
       </div>
     );
   }
