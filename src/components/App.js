@@ -8,9 +8,6 @@ class App extends Component {
         <Header containerClass="justify-content-center" dark={true}>
           ChatBot without using AI{" "}
         </Header>
-
-        {/* <h1>Learn React</h1>
-        <p>you are the best</p> */}
       </div>
     );
   }
