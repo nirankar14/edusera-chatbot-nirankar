@@ -5,7 +5,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header containerClass="justify-content-center">
+        <Header containerClass="justify-content-center" dark={true}>
           ChatBot without using AI{" "}
         </Header>
 
