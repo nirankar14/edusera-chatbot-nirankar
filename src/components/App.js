@@ -5,7 +5,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header>ChatBot without using AI </Header>
+        <Header containerClass="justify-content-center">
+          ChatBot without using AI{" "}
+        </Header>
 
         {/* <h1>Learn React</h1>
         <p>you are the best</p> */}
